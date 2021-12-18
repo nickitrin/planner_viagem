@@ -1,0 +1,17 @@
+body {
+    background-color: pink;
+}
+.titulo-pagina{
+    margin: 20px;
+}
+.menu-viagens{
+    display: flex;
+}
+.card-viagem{
+    height: 200px;
+    width: 30%;
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    background-color:gray;
+}
