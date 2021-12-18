@@ -1,8 +1,17 @@
 body {
-    background-color: pink;
+    background-color: #fff8fa;
+}
+.conjunto-titulo{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    height: 72px;
 }
 .titulo-pagina{
     margin: 20px;
+    font-size: 72px;
+    font-family: 'Hind Siliguri', sans-serif;
 }
 .menu-viagens{
     display: flex;
@@ -12,6 +21,27 @@ body {
     width: 30%;
     margin: 20px;
     text-decoration: none;
-    color: white;
-    background-color:gray;
+    color: rgb(187, 187, 187);
+    background-color:rgb(252, 252, 252);
+    box-shadow:2px 5px 3px #b8b7b7;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 25px;
+    font-weight: medium;
+    border-radius: 20px;
+    display: flex;
+}
+.conteudo-card{
+    align-items: center;
+    display: flex;
+}
+.conteudo-viagem{
+    align-items: flex-start;
+    display: flex;
+}
+.conteudo-viagem p{
+    margin: 0 0 0 10px;
+}
+.imagem-card-viagem{
+    height: 150px;
+    width: 210px;
 }
