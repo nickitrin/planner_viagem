@@ -1,0 +1,30 @@
+body{
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    background-color: white;
+    height:100%;
+    width: 80%;
+    font-family: 'Hind Siliguri', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.titulo-viagem{
+    font-family:'Mea Culpa', cursive;
+    font-size: 90px;
+    font-weight: 400;
+}
+.imagem-titulo{
+    height: 300px;
+}
+tr{
+    background-color: #f0f0f0;
+}
+td{
+    padding: 20px;
+}

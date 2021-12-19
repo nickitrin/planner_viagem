@@ -1,5 +1,5 @@
 body {
-    background-color: #fff8fa;
+    background-color: #f0f0f0;
 }
 .conjunto-titulo{
     display: flex;
@@ -12,6 +12,7 @@ body {
     margin: 20px;
     font-size: 72px;
     font-family: 'Hind Siliguri', sans-serif;
+    text-align: center;
 }
 .menu-viagens{
     display: flex;
@@ -44,4 +45,14 @@ body {
 .imagem-card-viagem{
     height: 150px;
     width: 210px;
+}
+.opcao-viagem{
+    display: flex;
+    flex-direction: column;
+}
+.descricao-viagem{
+    font-size:10px;
+    height: 110px;
+    width: 170px;
+    margin: 0 0 0 10px;
 }
